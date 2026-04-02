@@ -58,8 +58,6 @@ $btns.addEventListener("click", () => {
 	$p.remove();
 	$h2.remove();
 
-	Caroussel();
-
 	let test = active.classList.remove("carousel-btn-active");
 
 	for (let i = 0; i > pictures.length; i++) {
@@ -73,3 +71,5 @@ $btns.addEventListener("click", () => {
 	return test;
 	// console.log("coucou");
 });
+
+Caroussel();
