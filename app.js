@@ -31,7 +31,7 @@ const pictures = [
 	},
 ];
 
-const $btns = document.querySelector(".gallery");
+const $btns = document.querySelector(".gallery-carousel");
 const $div = document.querySelector(".carousel-btn-description");
 const active = document.querySelector(".carousel-btn-active");
 const $h3 = document.querySelector("h3");
